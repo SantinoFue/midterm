@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://www.cnet.com/a/img/resize/0832e76073db727c9714172b56730f1f119a4805/hub/2021/06/07/a3623247-e5e5-4f20-a65e-b15429fd56f7/screen-shot-2021-06-07-at-3-24-33-pm.png?auto=webp&fit=crop&height=675&width=1200);
+    background-size: 125% 125%;
+}
+h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: seagreen;
+    font-size: 19px;
+} 
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+li a:hover {
+    background-color: white;
+    color: seagreen;
+}
+.container {
+    background-color: white;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+    font-size: 30px;
+}
+.search-wrapper button {
+    font-size: 1em;
+    background-color: seagreen;
+    color: white;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 0.62em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search-wrapper h2 {
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid seagreen;
+    outline: none;
+    color: seagreen;
+    text-align: center;
+}
+.container .film-img {
+    display: block;
+    width: 70%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
